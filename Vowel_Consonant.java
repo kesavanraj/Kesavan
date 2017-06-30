@@ -6,10 +6,10 @@ public class Vowel_Consonant
 {
     public static void main(String[] args) throws Exception 
     {
-        char n;
+        char a;
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter the character you want to check:");
-        n = (char) bf.read();
+        a= (char) bf.read();
         switch(n)
         {
             case 'a':
