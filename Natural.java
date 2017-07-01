@@ -5,15 +5,15 @@ public class Natural
 {
 public static void main(String args[])throws IOException
 {
-int x, i = 1 ;
+int x, a = 1 ;
         int sum = 0;
         System.out.println("Enter Number of items :");
-        Scanner s = new Scanner(System.in);
-        x = s.nextInt();
-        while(i <= x)
+        Scanner sc = new Scanner(System.in);
+        x = sc.nextInt();
+        while(a <= x)
         {
-            sum = sum +i;
-            i++;
+            sum = sum +a;
+            a++;
         }
         System.out.println("Sum of "+x+" numbers is :"+sum);
     } 
