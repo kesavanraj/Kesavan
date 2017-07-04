@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 import java.lang.*;
-public clss Minimumdig
+public class Minimumdig
 {
   public static void main(String args[])throws IOException
 {
