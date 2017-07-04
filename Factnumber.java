@@ -1,19 +1,17 @@
 import java.io.*;
 import java.util.*;
-import java.lang.*;
-public class Factnumber
+public class Factorial
 {
-public static void main(String args[])throws IOException
+public static void main(String args[])
 {
-BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-int a,count,fact=1;
-System.out.println("Enter the number");
-a=Integer.parseInt()br.readLine());
-for(count=1;count<=a;count++)
+Scanner sc=new Scanner(System.in);
+int n,fact=1;
+System.out.println("Enter the factorial number");
+n=sc.nextInt();
+for(int i=1;i<=n;i++)
 {
-fact=fact*count;
+fact=fact*i;
 }
-System.out.pritnln("Factorial of the number is "+fact);
-return 0;
+System.out.println("Factorial number is: "+fact);
 }
 }
