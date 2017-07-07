@@ -33,7 +33,7 @@ String c="",d="";
 			}
 		}
 	}
-  for(i=1;i<a.length()-1;i++)
+  for(i=1;i<b.length()-1;i++)
   {
 		h=b.charAt(i);
 		if(h>='a'&&h<='r')
