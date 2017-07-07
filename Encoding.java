@@ -53,6 +53,6 @@ String c="",d="";
 		}
 	}
 }
-		System.out.println(c+" "+b.charAt(0	)+d+b.charAt(b.length()-1));
+		System.out.println(c+" "+b.charAt(0)+d+b.charAt(b.length()-1));
 }
 }
